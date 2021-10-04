@@ -41,6 +41,9 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
 
   @override
   Widget build(BuildContext context) {
+
+    //Change from dev_rejoaan
+
     return AnimatedBuilder(
         animation: Listenable.merge([homeController, _batteryAnimationController]),
         builder: (context, snapshot) {
