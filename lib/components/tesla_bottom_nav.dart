@@ -26,6 +26,8 @@ class TeslaBottomNavBar extends StatelessWidget {
   }
 }
 
+
+//Icon list that about to show in bottom nav
 final itemList = [
   Icons.lock,
   Icons.battery_charging_full,
