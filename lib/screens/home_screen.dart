@@ -90,6 +90,8 @@ class HomeScreen extends StatelessWidget {
                           isLock: homeController.isBottomDoorLock,
                         ),
                       )),
+
+                  //Add the batery status
                 ],
               );
             })),
